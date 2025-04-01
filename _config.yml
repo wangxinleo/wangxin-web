@@ -3,17 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: 产品经理·敏捷教练·全栈开发
+subtitle: '业务解决方案'
+description: '探索业务问题解决之道'
 keywords:
-author: John Doe
-language: en
-timezone: ''
-
+author: Wang Xin
+language: zh-CN
+timezone: 'Asia/Shanghai'
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://wangxin-web.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -40,7 +39,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true # 启用文章资源文件夹
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
@@ -93,6 +92,13 @@ include:
 exclude:
 ignore:
 
+# Search
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
@@ -101,4 +107,6 @@ theme: anzhiyu
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repo: https://github.com/wangxin-web/wangxin-web.github.io.git
+  branch: main
