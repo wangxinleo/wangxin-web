@@ -17,7 +17,7 @@ export interface SkillsSectionProps {
 const SkillCard = ({ card }: { card: SkillCardProps; }) => (
 	<div className="text-center">
 		<div className="relative w-16 h-16 mx-auto mb-6">
-			<div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center">
+			<div className="w-16 h-16 bg-accent rounded-full flex items-center justify-center">
 				<svg className="w-8 h-8 text-gray-800" fill="currentColor" viewBox="0 0 24 24">
 					<path d={card.iconSvgPath} />
 				</svg>
@@ -26,10 +26,10 @@ const SkillCard = ({ card }: { card: SkillCardProps; }) => (
 		<h3 className="text-2xl font-bold text-gray-900 mb-4">{card.title}</h3>
 		<p className="text-gray-600 mb-6">{card.description}</p>
 
-		<p className="text-teal-500 font-medium mb-2">{card.skillsTitle}</p>
+		<p className="text-primary font-medium mb-2">{card.skillsTitle}</p>
 		<p className="text-gray-700 mb-4">{card.skills.join(", ")}</p>
 
-		<p className="text-teal-500 font-medium mb-2">{card.toolsTitle}</p>
+		<p className="text-primary font-medium mb-2">{card.toolsTitle}</p>
 		<ul className="text-gray-700 space-y-1">
 			{card.tools.map((tool, index) => (
 				<li key={index}>{tool}</li>

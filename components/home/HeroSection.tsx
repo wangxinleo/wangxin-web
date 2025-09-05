@@ -29,7 +29,7 @@ export default function HeroSection({
 					alt={imageAlt}
 					width={imageWidth}
 					height={imageHeight}
-					className="rounded-full bg-teal-500"
+					className="rounded-full bg-primary"
 				/>
 			</div>
 		</section>

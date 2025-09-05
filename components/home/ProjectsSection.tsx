@@ -33,7 +33,7 @@ const ProjectCard = ({ project }: { project: ProjectCardProps; }) => (
 			<p className="text-gray-600 mb-4">{project.description}</p>
 			<div className="flex flex-wrap gap-2">
 				{project.tags.map((tag, index) => (
-					<span key={index} className="px-3 py-1 bg-teal-100 text-teal-800 text-sm rounded-full">
+					<span key={index} className="px-3 py-1 bg-secondary text-secondary-foreground text-sm rounded-full">
 						{tag}
 					</span>
 				))}
@@ -56,7 +56,7 @@ export default function ProjectsSection({
 					<h2 className="text-3xl font-bold text-gray-900 mb-4">{title}</h2>
 					<p className="text-xl text-gray-600 max-w-2xl mx-auto">
 						{subtitle}
-						<Link href={emailLinkHref} className="text-teal-500 hover:underline ml-1">
+						<Link href={emailLinkHref} className="text-primary hover:underline ml-1">
 							{emailLinkText}
 						</Link>
 						。

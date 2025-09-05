@@ -9,7 +9,7 @@ import ContactSection, { type ContactSectionProps } from "@/components/home/Cont
 
 export default function Home() {
   const headerData: HeaderProps = {
-    logoText: "王鑫leo",
+    logoText: "wangxinleo",
     mentorshipLinkText: "开源项目",
     mentorshipLinkHref: "https://github.com/wangxinleo",
     contactButtonText: "联系我",
@@ -17,7 +17,7 @@ export default function Home() {
   };
 
   const footerData: FooterProps = {
-    logoText: "王鑫leo",
+    logoText: "wangxinleo",
     twitterLink: "#",
     githubLink: "https://github.com/wangxinleo",
     linkedinLink: "#",
@@ -29,7 +29,7 @@ export default function Home() {
     title: "AI效能架构师 & 技术领导者",
     subtitle: "我致力于将AI融入软件开发全生命周期，构筑“智能体驱动的研发新范式”，实现研发模式从“自动化”至“自主化”的跃迁。",
     imageSrc: "/hero.png",
-    imageAlt: "王鑫leo个人头像",
+    imageAlt: "wangxinleo",
     imageWidth: 240,
     imageHeight: 240,
   };

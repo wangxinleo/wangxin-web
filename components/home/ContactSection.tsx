@@ -35,7 +35,7 @@ export default function ContactSection({
 						<h2 className="text-3xl font-bold text-gray-900 mb-4">{title}</h2>
 						<p className="text-xl text-gray-600 mb-8">{subtitle}</p>
 						<Button
-							className="bg-teal-500 hover:bg-teal-600 text-white rounded-full px-8 py-6 text-lg"
+							className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-8 py-6 text-lg"
 							onClick={handleButtonClick} // Added onClick handler
 						>
 							{buttonText}

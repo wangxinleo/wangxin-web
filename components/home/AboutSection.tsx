@@ -29,7 +29,7 @@ export default function AboutSection({
 				/>
 			</div>
 			{/* 个人介绍区域 */}
-			<section className="bg-teal-500 text-white py-40 text-center pb-60">
+			<section className="bg-primary text-primary-foreground py-40 text-center pb-60">
 				<div className="container mx-auto px-4">
 					<div className="max-w-4xl mx-auto">
 						<h1 className="text-3xl md:text-4xl font-bold mb-6">{title}</h1>
