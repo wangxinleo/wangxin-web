@@ -4,7 +4,7 @@ import HeroSection, { type HeroSectionProps } from "@/components/home/HeroSectio
 import AboutSection, { type AboutSectionProps } from "@/components/home/AboutSection";
 import SkillsSection, { type SkillsSectionProps } from "@/components/home/SkillsSection";
 import ProjectsSection, { type ProjectsSectionProps } from "@/components/home/ProjectsSection";
-import ClientsSection, { type ClientsSectionProps } from "@/components/home/ClientsSection";
+import AchievementsSection, { type AchievementsSectionProps } from "@/components/home/AchievementsSection";
 import ContactSection, { type ContactSectionProps } from "@/components/home/ContactSection";
 
 export default function Home() {
@@ -39,7 +39,7 @@ export default function Home() {
     mainImageAlt: "工作区插图",
     mainImageWidth: 800,
     mainImageHeight: 300,
-    title: "你好，我是王鑫。很高兴在这里与你相遇。",
+    title: "你好，很高兴在这里与你相遇。",
     description: "拥有7年从业经验，我从一名全栈工程师成长为技术领导者，专注于通过AI与DevOps提升研发效能。我热衷于领导跨职能团队，在大型企业环境中攻克复杂的技术挑战，并主导实施从“自动化”到“自主化”的研发模式变革。我坚信技术的核心价值在于驱动业务创新与效率革命。",
   };
 
@@ -114,12 +114,30 @@ export default function Home() {
     ],
   };
 
-  const clientsSectionData: ClientsSectionProps = {
-    title: "我曾服务于",
-    subtitle: "我很荣幸能与这些出色的伙伴合作，创造价值。",
-    clients: [
-      { name: "头部公募基金" },
-      { name: "五株科技" },
+  const achievementsSectionData: AchievementsSectionProps = {
+    title: "核心价值与成就",
+    subtitle: "我专注于通过技术与数据驱动业务增长，以下是我在关键领域取得的一些量化成果。",
+    achievements: [
+      {
+        value: "56.5%",
+        description: "将需求平均交付周期从97.95天锐减至42.59天",
+        iconSvgPath: "M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1z M11 8h2v3h-2zm0 5h2v2h-2zm-5-5h2v5H6z",
+      },
+      {
+        value: "16x",
+        description: "通过标准化设计将新项目接入CI/CD体系的效率提升16倍",
+        iconSvgPath: "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z",
+      },
+      {
+        value: "60%",
+        description: "引入AI代码审查助手，在提测前拦截60%的设计类缺陷",
+        iconSvgPath: "M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z",
+      },
+      {
+        value: "1.6k+",
+        description: "主导的开源项目在GitHub上获得超过1.6k Star",
+        iconSvgPath: "M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z",
+      },
     ],
   };
 
@@ -138,7 +156,7 @@ export default function Home() {
         <AboutSection {...aboutSectionData} />
         <SkillsSection {...skillsSectionData} />
         <ProjectsSection {...projectsSectionData} />
-        <ClientsSection {...clientsSectionData} />
+        <AchievementsSection {...achievementsSectionData} />
         <ContactSection {...contactSectionData} />
       </main>
       <Footer {...footerData} />
