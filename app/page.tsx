@@ -9,27 +9,27 @@ import ContactSection, { type ContactSectionProps } from "@/components/home/Cont
 
 export default function Home() {
   const headerData: HeaderProps = {
-    logoText: "L5Code",
-    mentorshipLinkText: "Mentorship",
-    mentorshipLinkHref: "/mentorship",
-    contactButtonText: "Say Hello",
-    contactButtonHref: "/contact",
+    logoText: "王鑫leo",
+    mentorshipLinkText: "开源项目",
+    mentorshipLinkHref: "https://github.com/wangxinleo",
+    contactButtonText: "联系我",
+    contactButtonHref: "mailto:wangxin_leo@126.com",
   };
 
   const footerData: FooterProps = {
-    logoText: "L5Code",
+    logoText: "王鑫leo",
     twitterLink: "#",
-    githubLink: "#",
+    githubLink: "https://github.com/wangxinleo",
     linkedinLink: "#",
     instagramLink: "#",
     copyrightText: "Copyright © 2025 wangxinleo",
   };
 
   const heroSectionData: HeroSectionProps = {
-    title: "设计师，前端开发者 & 导师",
-    subtitle: "我设计并编写优美简洁的作品，我热爱我所做的一切。",
+    title: "AI效能架构师 & 技术领导者",
+    subtitle: "我致力于将AI融入软件开发全生命周期，构筑“智能体驱动的研发新范式”，实现研发模式从“自动化”至“自主化”的跃迁。",
     imageSrc: "/hero.png",
-    imageAlt: "个人头像",
+    imageAlt: "王鑫leo个人头像",
     imageWidth: 240,
     imageHeight: 240,
   };
@@ -39,67 +39,95 @@ export default function Home() {
     mainImageAlt: "工作区插图",
     mainImageWidth: 800,
     mainImageHeight: 300,
-    title: "你好，我是王鑫。很高兴见到你。",
-    description: "自从7年前开始我的自由设计师之旅以来，我已经为代理机构进行远程工作，为初创公司提供咨询，并与有才华的人合作，为企业和消费者创造数字产品。我低调自信，天生好奇，永远在努力提高我的技能。",
+    title: "你好，我是王鑫。很高兴在这里与你相遇。",
+    description: "拥有7年从业经验，我从一名全栈工程师成长为技术领导者，专注于通过AI与DevOps提升研发效能。我热衷于领导跨职能团队，在大型企业环境中攻克复杂的技术挑战，并主导实施从“自动化”到“自主化”的研发模式变革。我坚信技术的核心价值在于驱动业务创新与效率革命。",
   };
 
   const skillsSectionData: SkillsSectionProps = {
     cards: [
       {
-        iconSvgPath: "M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z",
-        title: "设计师",
-        description: "我重视简单的内容结构、干净的设计模式和周到的交互。",
-        skillsTitle: "我喜欢设计的内容：",
-        skills: ["UX", "UI", "网页", "应用", "标志"],
-        toolsTitle: "设计工具：",
-        tools: ["Affinity Designer", "Figma", "纸笔", "Sketch"],
+        iconSvgPath: "M15.5,12c2.5,0,4.5-2,4.5-4.5S18,3,15.5,3S11,5,11,7.5S13,12,15.5,12z M15.5,5c1.4,0,2.5,1.1,2.5,2.5S16.9,10,15.5,10S13,8.9,13,7.5S14.1,5,15.5,5z M8.5,12c2.5,0,4.5-2,4.5-4.5S11,3,8.5,3S4,5,4,7.5S6,12,8.5,12z M8.5,5C9.9,5,11,6.1,11,7.5S9.9,10,8.5,10S6,8.9,6,7.5S7.1,5,8.5,5z M15.5,14c-1.8,0-3.4,0.8-4.5,2c-1.1-1.2-2.7-2-4.5-2C3.8,14,2,15.8,2,18v3h12v-3c0-2.2,1.8-4,4-4h2v-2h-2.5C17.3,14,16.4,14,15.5,14z M4,18c0-1.1,0.9-2,2.5-2s2.5,0.9,2.5,2v1H4V18z M15.5,16c1.1,0,2,0.9,2,2v1h-4v-1C13.5,16.9,14.4,16,15.5,16z",
+        title: "AI工程与效能优化",
+        description: "精通LLM应用架构设计，擅长将AI融入软件开发全生命周期，并通过数据度量体系驱动研发效能持续提升。",
+        skillsTitle: "核心能力:",
+        skills: ["LLM应用与集成", "AI驱动开发", "数据驱动决策"],
+        toolsTitle: "实践平台/工具:",
+        tools: ["Dify", "n8n", "Python", "DORA指标"],
       },
       {
-        iconSvgPath: "M8 3v3.4L12 10l4-3.6V3h4v18h-4v-2.6L12 14l-4 3.4V20H4V3h4z",
-        title: "前端开发者",
-        description: "我喜欢从零开始编写代码，并享受在浏览器中将想法变为现实。",
-        skillsTitle: "我使用的语言：",
-        skills: ["HTML", "Pug", "Slim", "CSS", "Sass", "Git"],
-        toolsTitle: "开发工具：",
-        tools: ["Astro JS", "Bitbucket", "Bootstrap", "Bulma", "Github", "Netlify", "Tailwind CSS", "VS Code"],
+        iconSvgPath: "M20 6h-4V4c0-1.1-.9-2-2-2h-4c-1.1 0-2 .9-2 2v2H4c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zM10 4h4v2h-4V4zm10 17H4V8h16v13z",
+        title: "全栈技术与架构设计",
+        description: "熟悉现代前端工程化与Node.js后端服务，掌握领域驱动设计理念，在复杂SPA与跨平台应用领域有丰富实践。",
+        skillsTitle: "技术栈:",
+        skills: ["Vue/React/Angular", "Node.js (Koa/Express)", "Electron", "GraphQL"],
+        toolsTitle: "架构理念:",
+        tools: ["领域驱动设计(DDD)", "零信任安全", "原子化更新", "BFF"],
       },
       {
-        iconSvgPath: "M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z",
-        title: "导师",
-        description: "我真诚地关心他人，并享受帮助他们提升自己的技艺。",
-        skillsTitle: "我的经验来源：",
-        skills: ["UX/UI", "产品设计", "自由职业"],
-        toolsTitle: "导师统计：",
-        tools: ["9+ 年经验", "30+ 短期课程", "65+ 训练营", "250+ 学生", "2,500+ 指导会话", "60+ 小组评审", "18,000+ 反馈"],
+        iconSvgPath: "M13.5 5.5c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zM6 7.5c0 1.1.9 2 2 2s2-.9 2-2-.9-2-2-2-2 .9-2 2zm10 0c0 1.1.9 2 2 2s2-.9 2-2-.9-2-2-2-2 .9-2 2zM18 13H6c-1.1 0-2 .9-2 2v3h16v-3c0-1.1-.9-2-2-2z",
+        title: "DevOps与自动化",
+        description: "擅长将AI智能体与CI/CD流水线深度融合，实现自主调度与风险熔断，并通过标准化设计将新项目接入效率提升16倍。",
+        skillsTitle: "核心能力:",
+        skills: ["AI融合CI/CD", "自主化流水线", "容器化部署"],
+        toolsTitle: "实践平台/工具:",
+        tools: ["Docker", "GitLab API", "蓝鲸CI", "Shell/Python"],
+      },
+      {
+        iconSvgPath: "M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z",
+        title: "技术领导与项目管理",
+        description: "持有PMP认证，具备领导16人以上跨职能团队经验，擅长推行敏捷实践，并通过开源社区协作扩大技术影响力。",
+        skillsTitle: "核心能力:",
+        skills: ["16人+团队管理", "敏捷转型 (Scrum/Kanban)", "质量左移"],
+        toolsTitle: "专业认证/成就:",
+        tools: ["PMP", "敏捷教练", "开源项目(近2k Star)"],
       },
     ],
   };
 
   const projectsSectionData: ProjectsSectionProps = {
-    title: "我的最新项目",
-    subtitle: "这里是我最近完成的一些项目。想了解更多？",
+    title: "我的核心项目",
+    subtitle: "这里是我近期主导设计和实现的一些项目。想了解更多？",
     emailLinkText: "给我发邮件",
-    emailLinkHref: "mailto:example@example.com",
-    projects: Array.from({ length: 6 }).map((_, i) => ({
-      imageSrc: `/placeholder.svg?height=192&width=384&text=项目${i + 1}`,
-      imageAlt: `项目 ${i + 1}`,
-      title: `项目 ${i + 1}`,
-      description: "一个很棒的项目描述放在这里。",
-      tags: ["React", "Next.js", "Tailwind"],
-    })),
+    emailLinkHref: "mailto:wangxin_leo@126.com",
+    projects: [
+      {
+        imageSrc: `/placeholder.svg?height=192&width=384&text=企业级AI智能助理`,
+        imageAlt: `企业级AI智能助理平台`,
+        title: `企业级AI智能助理平台（桌面端）`,
+        description: "从0到1主导设计，为企业构建安全、可控、可扩展的桌面端AI工作入口，解决公有大模型的数据安全与合规风险。",
+        tags: ["Electron", "Vue3", "Node.js", "LLM", "Dify"],
+      },
+      {
+        imageSrc: `/placeholder.svg?height=192&width=384&text=自主化DevOps体系`,
+        imageAlt: `自主化DevOps体系`,
+        title: `AI智能体驱动的自主化DevOps体系`,
+        description: "将传统CI/CD流程从“自动化”升级为“自主化”，通过AI智能体实现流水线自主调度、质量保障与发布风险熔断。",
+        tags: ["AI Agent", "CI/CD", "Python", "Docker", "GitLab API"],
+      },
+      {
+        imageSrc: `/placeholder.svg?height=192&width=384&text=微信推送服务`,
+        imageAlt: `定制化微信推送服务`,
+        title: `定制化微信推送服务 (1.6k+ Stars)`,
+        description: "广受欢迎的开源微信推送服务平台，支持多渠道、可编排、自定义模板的消息推送，并通过社区协作持续迭代。",
+        tags: ["Node.js", "Redis", "Docker", "GitHub Actions", "开源"],
+      },
+    ],
   };
 
   const clientsSectionData: ClientsSectionProps = {
-    title: "我曾与谁合作",
-    subtitle: "我很幸运能与这些出色的公司合作。",
-    clients: Array.from({ length: 8 }).map((_, i) => ({ name: `客户 ${i + 1}` })),
+    title: "我曾服务于",
+    subtitle: "我很荣幸能与这些出色的伙伴合作，创造价值。",
+    clients: [
+      { name: "头部公募基金" },
+      { name: "五株科技" },
+    ],
   };
 
   const contactSectionData: ContactSectionProps = {
-    title: "开始一个项目",
-    subtitle: "对我的服务感兴趣吗？我们可以安排一次通话来讨论您的项目需求。",
-    buttonText: "给我发消息",
-    buttonLink: "mailto:your.email@example.com",
+    title: "开启一次合作",
+    subtitle: "对我的经验或项目感兴趣？我们可以安排一次沟通来深入交流。",
+    buttonText: "给我发邮件",
+    buttonLink: "mailto:wangxin_leo@126.com",
   };
 
   return (
