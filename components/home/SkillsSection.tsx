@@ -42,7 +42,7 @@ export default function SkillsSection({ cards }: SkillsSectionProps) {
 	return (
 		<section>
 			<div className="max-w-6xl mx-auto -mt-40">
-				<div className="bg-white rounded-lg shadow-lg p-8">
+				<div className="bg-white rounded-lg shadow-lg p-8 m-4">
 					<div className="grid grid-cols-1 md:grid-cols-3 gap-12">
 						{cards.map((card, index) => (
 							<SkillCard key={index} card={card} />

@@ -23,6 +23,7 @@ export default function Home() {
     linkedinLink: "#",
     instagramLink: "#",
     copyrightText: "Copyright © 2025 wangxinleo",
+    icpRecord: "粤ICP备19090939号",
   };
 
   const heroSectionData: HeroSectionProps = {
