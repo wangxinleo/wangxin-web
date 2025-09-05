@@ -91,21 +91,21 @@ export default function Home() {
     emailLinkHref: "mailto:wangxin_leo@126.com",
     projects: [
       {
-        imageSrc: `/placeholder.svg?height=192&width=384&text=企业级AI智能助理`,
+        imageSrc: `/dashboard.png?height=192&width=384&text=企业级AI智能助理`,
         imageAlt: `企业级AI智能助理平台`,
         title: `企业级AI智能助理平台（桌面端）`,
         description: "从0到1主导设计，为企业构建安全、可控、可扩展的桌面端AI工作入口，解决公有大模型的数据安全与合规风险。",
         tags: ["Electron", "Vue3", "Node.js", "LLM", "Dify"],
       },
       {
-        imageSrc: `/placeholder.svg?height=192&width=384&text=自主化DevOps体系`,
+        imageSrc: `/agent.png?height=192&width=384&text=自主化DevOps体系`,
         imageAlt: `自主化DevOps体系`,
         title: `AI智能体驱动的自主化DevOps体系`,
         description: "将传统CI/CD流程从“自动化”升级为“自主化”，通过AI智能体实现流水线自主调度、质量保障与发布风险熔断。",
         tags: ["AI Agent", "CI/CD", "Python", "Docker", "GitLab API"],
       },
       {
-        imageSrc: `/placeholder.svg?height=192&width=384&text=微信推送服务`,
+        imageSrc: `/wechat-push.png?height=192&width=384&text=微信推送服务`,
         imageAlt: `定制化微信推送服务`,
         title: `定制化微信推送服务 (1.6k+ Stars)`,
         description: "广受欢迎的开源微信推送服务平台，支持多渠道、可编排、自定义模板的消息推送，并通过社区协作持续迭代。",
